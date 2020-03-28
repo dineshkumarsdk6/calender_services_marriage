@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="colorPrimary">#3F51B5</color>
+     <color name="colorPrimaryDark">#303F9F</color>
+     <color name="colorAccent">#FF4081</color>-->
+
+
+    <color name="colorTextNew">#9D9E9E</color>
+    <color name="colorTextLine">#EB226C</color>
+    <color name="colorTextBg">#FAFAFA</color>
+    <color name="colorLandmark1">#00EC97</color>
+    <color name="colorLandmark2">#00A3F8</color>
+    <color name="colorInsta1">#F08335</color>
+    <color name="colorInsta2">#D43080</color>
+    <color name="colorFb1">#00208D</color>
+    <color name="colorFb2">#224BA5</color>
+    <color name="colorYoutube1">#D10404</color>
+    <color name="colorYoutube2">#FF0000</color>
+    <color name="colorWeb1">#026B22</color>
+    <color name="colorWeb2">#03942F</color>
+
+    <color name="colorPrimary">#669A01</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#9E9E9E</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="bb_inActiveBottomBarItemColor">#747474</color>
+
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+
+    <color name="white">#ffffff</color>
+    <color name="secondary_text">#757575</color>
+    <color name="primary_text">#424242</color>
+    <color name="light_orange">#80FF8A65</color>
+    <color name="trans_black">#8000</color>
+    <color name="transparent">#07000000</color>
+    <color name="transparent_half">#d3000000</color>
+    <color name="black">#353233</color>
+    <color name="yellow">#fdb317</color>
+    <color name="light_green_dark">#0097a7</color>
+    <color name="thick_green">#00A859</color>
+    <color name="browish_red">#990033</color>
+    <color name="l">#f5f5f5</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="shade1">#EEEEEE</color>
+    <color name="shade2">#BDBDBD</color>
+    <color name="blue_job">#607D8B</color>
+    <color name="green_job">#1B5E20</color>
+
+
+    <color name="dark_violet">#673AB7</color>
+
+    <color name="colorWhite">#f7f5f5</color>
+    <color name="oodha">#EA6793</color>
+
+    <integer-array name="androidcolors">
+        <item>@color/blue</item>
+        <item>@color/purple</item>
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+        <item>@color/darkpurple</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+    </integer-array>
+
+
+
+    <color name="colorPrimary_job">#dd4b39</color>
+
+    <color name="searchDialogResultColor">@android:color/secondary_text_light</color>
+    <color name="searchDialogResultHighlightColor">#FFED2E47</color>
+    <color name="divider_color">#C7C7CC</color>
+
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+
+
+    <color name="gray">#808080</color>
+    <color name="gray_variant">#ff565e6b</color>
+    <color name="green_variant">#2FBCA1</color>
+    <color name="dark_green">#006666</color>
+
+
+    <color name="iconColor">#000000</color>
+    <color name="iconColor1">#CF7414</color>
+
+    <color name="progressthumb">#FFFFFF</color>
+
+    <color name="org1">#E38906</color>
+    <color name="org2">#FFA005</color>
+
+</resources>

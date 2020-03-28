@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/lrtbp_10">
+
+        <LinearLayout
+            android:id="@+id/textLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/toolbar_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/lrtbp_5"
+                android:text="நீங்கள் டெக்கரேஷன் செய்யும் மூன்று மாவட்டங்களை தேர்ந்தெடுக்கவும்"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_below="@+id/textLayout"
+            android:layout_above="@+id/card_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/lrtbp_10"
+            android:layout_marginLeft="@dimen/lrtbp_10"
+            android:layout_marginRight="@dimen/lrtbp_10"
+            android:scrollbars="none" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_submit"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/wh_80_1"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lrtbp_10"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackground"
+            android:gravity="center"
+            app:cardBackgroundColor="@color/colorTextLine"
+            app:cardCornerRadius="@dimen/lrtbp_15">
+
+            <LinearLayout
+                android:id="@+id/layout_upgrade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/lrtbp_5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_upgrade"
+                    android:layout_toRightOf="@+id/image_live"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lrtbp_5"
+                    android:padding="@dimen/wh_2"
+                    android:textAllCaps="true"
+                    android:text="சமர்ப்பிக்க"
+                    android:layout_gravity="center_vertical"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</RelativeLayout>

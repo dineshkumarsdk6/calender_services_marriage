@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- sw600dp -->
+
+    <dimen name="alert_heading">35dp</dimen>
+    <dimen name="alert_button">26dp</dimen>
+    <dimen name="first_screen_title">48dp</dimen>
+    <dimen name="croll_app_height">200dp</dimen>
+
+
+    <!-- About us -->
+    <dimen name="info_margin_left">30dp</dimen>
+    <dimen name="info_margin_right">30dp</dimen>
+    <dimen name="info_margin_top">40dp</dimen>
+    <dimen name="info_version_name_font_size">25dp</dimen>
+
+
+    <dimen name="lrtbp_5">8dp</dimen>
+     <dimen name="lrtbp_10">20dp</dimen> 
+      <dimen name="lrtbp_15">30dp</dimen> 
+     <dimen name="lrtbp_20">20dp</dimen> 
+      <dimen name="lrtbp_25">25dp</dimen>
+
+    <dimen name="wh_1">2dp</dimen>
+         <dimen name="wh_2">3dp</dimen> 
+         
+         <dimen name="txt_10">14dp</dimen>
+    <dimen name="txt_16">25dp</dimen>
+          <dimen name="txt_18">28dp</dimen>
+           <dimen name="txt_20">32dp</dimen>
+           <dimen name="txt_22">28dp</dimen>
+           <dimen name="txt_24">36dp</dimen>
+           <dimen name="txt_25">38dp</dimen>
+           
+            <dimen name="wh_35">55dp</dimen>   
+          <dimen name="wh_40">80dp</dimen>
+    <dimen name="wh_50">90dp</dimen>
+          <dimen name="wh_60">120dp</dimen>
+    <dimen name="wh_150">280dp</dimen>
+               <dimen name="wh_300">560dp</dimen>
+    <dimen name="wh_120">280dp</dimen>
+           <dimen name="wh_70">110dp</dimen>
+    <dimen name="wh_180">250dp</dimen>
+
+    <dimen name="wh_350">500dp</dimen>
+    <dimen name="wh_80_1">180dp</dimen>
+
+</resources>

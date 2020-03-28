@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dist_check_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/lrtbp_10"
+        android:layout_marginRight="@dimen/lrtbp_10"
+        android:orientation="horizontal"
+        android:padding="@dimen/lrtbp_5">
+
+        <TextView
+            android:id="@+id/district_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lrtbp_5"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg2"
+            android:hint="@string/text_district"
+            android:textColorHint="@color/white"
+            android:padding="@dimen/lrtbp_5"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/taluk_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lrtbp_5"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_bg1"
+            android:hint="@string/text_city"
+            android:textColorHint="@color/white"
+            android:padding="@dimen/lrtbp_5"
+            android:maxLines="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorWhite"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dist_check_lay"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/empty_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/empty_imgg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/wh_180" />
+
+                <TextView
+                    android:id="@+id/empty_txttt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/lrtbp_5"
+                    android:text="வாடகை விவரங்கள் ஏதும் இல்லை"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:divider="@color/list_divider"
+                android:dividerHeight="1dp" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

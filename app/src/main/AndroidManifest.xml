@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nithra.calender.marriage.services">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="nithra.calender.marriage.servicesr"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity android:name=".MarriageServices.ActivityMainPage"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MarriageServices.ActivityMarriageServiceAdd"
+            android:windowSoftInputMode="adjustPan"/>
+
+
+        <activity android:name=".MarriageServices.ActivityNumberReg"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".MarriageServices.ActivityUserReg"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".MarriageServices.AcitivtyOtpVerification"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".MarriageServices.ActivityMarriageServiceMain"/>
+        <activity android:name=".MarriageServices.ActivityMarriageServicePreview" />
+        <activity android:name=".MarriageServices.ActivityMarriageServiceFilter" />
+
+
+        <activity android:name=".image_slider.Activity_slider" />
+        <activity android:name=".MarriageServices.ActivityPayment" />
+        <activity android:name=".MarriageServices.ActivityPaymentHistory"/>
+
+        <activity
+            android:name=".crop_image.CropImageActivity"
+            android:theme="@style/corppp"/>
+
+        <activity
+            android:name=".crop_image.CropImageActivity1"
+            android:theme="@style/corppp"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@android:color/transparent"
+        android:layout_margin="@dimen/lrtbp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:visibility="visible"
+            android:id="@+id/card_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/lrtbp_10"
+                        android:gravity="left|center"
+                        android:text="இந்த தகவல் பற்றி நீங்கள் ஏன் புகார் அளிக்க விரும்புகிறீர்கள்?"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:padding="@dimen/lrtbp_5"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/lrtbp_10"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:orientation="vertical"
+                        android:id="@+id/radioReport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <RadioButton
+                            android:buttonTint="@color/colorTextLine"
+                            android:backgroundTint="@color/colorTextLine"
+                            android:id="@+id/radioReport1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="தொலைபேசி எண் தவறானது "/>
+
+                        <RadioButton
+                            android:buttonTint="@color/colorTextLine"
+                            android:backgroundTint="@color/colorTextLine"
+                            android:id="@+id/radioReport2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="அனைத்து தகவல்களும் தவறானது" />
+
+                        <RadioButton
+                            android:buttonTint="@color/colorTextLine"
+                            android:backgroundTint="@color/colorTextLine"
+                            android:id="@+id/radioReport3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="மற்றவை" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutOthers"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/lrtbp_10"
+                    android:layout_marginLeft="@dimen/lrtbp_10"
+                    android:layout_marginRight="@dimen/lrtbp_10"
+                    android:background="#FAFAFA"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/editTextOthers"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/wh_50"
+                        android:backgroundTint="@color/colorWhite"
+                        android:hint="மற்றவை"
+                        android:gravity="top|left"
+                        android:importantForAutofill="no"
+                        android:inputType="textMultiLine"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutOthersLine"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/lrtbp_10"
+                    android:layout_marginRight="@dimen/lrtbp_10"
+                    android:layout_marginBottom="@dimen/lrtbp_15"
+                    android:background="#EB226C"
+                    android:orientation="horizontal"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_report_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/lrtbp_25"
+                    android:layout_marginTop="@dimen/lrtbp_25"
+                    android:layout_marginRight="@dimen/lrtbp_25"
+                    android:layout_marginBottom="@dimen/lrtbp_10"
+                    android:layout_weight="0.33"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:gravity="center"
+                    app:cardBackgroundColor="#FA327B"
+                    app:cardCornerRadius="@dimen/lrtbp_15">
+
+                    <Button
+                        android:id="@+id/cardSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:text="அனுப்புக"
+                        android:textColor="@android:color/white"
+                        android:visibility="visible" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="@dimen/lrtbp_25"
+        android:layout_height="@dimen/lrtbp_25"
+        android:background="@color/colorTextLine"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_clear_black_24dp"/>
+
+</RelativeLayout>

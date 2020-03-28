@@ -1,0 +1,273 @@
+<resources>
+    <string name="app_name">Calendar Marriage Service</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="app_id">1128938127143022</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">global</string>
+
+
+    <string name="tc">Terms &amp; Conditions</string>
+    <string name="tc1">Accept Terms &amp; Conditions</string>
+    <string name="tc2">Please Accept our Terms &amp; Conditions</string>
+
+
+    <string name="cam_err">Camera Error. Failed to Open. Error: </string>
+    <string name="msgg">* சேமித்த பகுதியில் உள்ள தகவல்களை மட்டும் Backup &amp; Restore செய்து கொள்ளலாம்  </string>
+    <string name="msgg1">* சேமித்த பகுதியில் உள்ள தகவல்களை  Backup &amp; Restore செய்ய  </string>
+    <string name="fontsize">13</string>
+    <string name="lineHeight">20</string>
+
+    <string name="filter_info">இப்பகுதியில் உங்கள் படிப்பு, தகுதி, அனுபவம், இருப்பிடம் ஆகியவற்றை அடிப்படையாக கொண்டு வேலை வாய்ப்புகளை வடிகட்டி கொள்ளலாம்.</string>
+    <string name="swipe_side">இடம் வலம் நகர்த்தி மேலும் வேலை வாய்ப்புகளை பார்வையிடுங்கள்.</string>
+    <string name="click_all">தற்போது இப்பகுதியின் முதல்நிலையானது சோதனை (Testing) முறையில் வெளியிடப்பட்டுள்ளது.இந்த பகுதியானது தொடர்ச்சியாக மேம்படுத்தப்பட்டு வருகிறது. மேலும் அனைத்து வேலைவாய்ப்புகளையும் காண All பகுதியை கிளிக் செய்யுங்கள்.</string>
+    <string name="ani">செயலியை தரவிறக்கம் செய்யவும்</string>
+    <string name="ina">இணைய இணைப்பை சரிபார்க்கவும்</string>
+    <string name="error">Something Went Wrong</string>
+    <string name="dnf">தகவல் ஏதும் இல்லை</string>
+    <string name="content_saved">உங்கள் கருத்து பதிவு செய்யப்பட்டது, நன்றி</string>
+    <string name="rprt">இந்த தகவல் பற்றி நீங்கள் ஏன் புகார் அளிக்க விரும்புகிறீர்கள்?</string>
+    <string name="feed_back">கருத்துக்கள்</string>
+    <string name="select_option">உங்கள் கருத்தை தேர்வு செய்து அனுப்பவும்,நன்றி</string>
+    <string name="others">Others</string>
+    <string name="type">உங்கள் கருத்தை தட்டச்சு செய்து அனுப்பவும்,நன்றி</string>
+
+    <string name="error_no_skus">We didn\'t find any SKUs to display&#8230; Check your internet
+        connection and make sure your Google Developer Console was setup correctly.</string>
+    <string name="error_billing_unavailable">Billing unavailable. Make sure your Google Play app
+        is setup correctly</string>
+    <string name="error_billing_default">Billing unavailable. Please check your device.</string>
+    <string name="button_purchase">Purchase</string>
+    <string name="header_inapp">One-time deals</string>
+    <string name="header_subscriptions">Subscriptions</string>
+    <string name="alert_already_purchased">Item is already purchased</string>
+    <string name="alert_error_consuming">Error while consuming: %1$s</string>
+
+    <string name="button_buy">Buy</string>
+    <string name="button_own">Own</string>
+    <string name="button_full_tank">Full tank</string>
+    <string name="button_change">Change</string>
+
+
+    <string name="vs">View &amp; Share</string>
+
+
+    <string-array name="unit_prompt">
+        <item>Kgs</item>
+        <item>Ltrs</item>
+        <item>Pkts</item>
+        <item>Gms</item>
+        <item>mL</item>
+        <item>Pcs</item>
+        <item>Rs</item>
+    </string-array>
+
+
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="crop_image_menu_flip">Flip</string>
+    <string name="crop_image_menu_flip_horizontally">Flip horizontally</string>
+    <string name="crop_image_menu_flip_vertically">Flip vertically</string>
+
+    <string name="pick_image_intent_chooser_title">Select source</string>
+
+    <string name="crop_image_activity_no_permissions">Cancelling, required permissions are not granted</string>
+
+
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="ok">OK</string>
+
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+
+
+    <string-array name="rent_counts">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string-array name="age_bulid">
+        <item>தேர்வுசெய்க</item>
+        <item>புதிய கட்டிடம்</item>
+        <item>5 வருடத்திற்கு குறைவு</item>
+        <item>5 முதல் 10 வருடம்</item>
+        <item>10 முதல் 15 வருடம்</item>
+        <item>15 முதல் 20 வருடம்</item>
+        <item>20 வருடத்திற்கு மேல்</item>
+    </string-array>
+
+    <string-array name="water_serv">
+        <item>தேர்வுசெய்க</item>
+        <item>24 மணிநேரம்</item>
+        <item>12 மணிநேரம்</item>
+        <item>6 மணிநேரம்</item>
+        <item>2 மணிநேரம்</item>
+        <item>1 மணிநேரம்</item>
+        <item>மற்றவை</item>
+    </string-array>
+
+    <string-array name="notice_period">
+        <item>தேர்வுசெய்க</item>
+        <item>2 மாதம்</item>
+        <item>1 மாதம்</item>
+        <item>15 நாட்கள்</item>
+    </string-array>
+
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+
+    <string name="word_day">day</string>
+    <string name="word_days">days</string>
+    <string name="word_minute">minute</string>
+    <string name="word_minutes">minutes</string>
+    <string name="word_hour">hour</string>
+    <string name="word_hours">hours</string>
+    <string name="word_join">and</string>
+    <string name="text_district">மாவட்டம்</string>
+    <string name="text_city">நகரம்</string>
+    <string name="textYes">உண்டு</string>
+    <string name="textNo">இல்லை</string>
+
+
+    <string-array name="unit_ages">
+        <item>வயதை தேர்வுசெய்யவும்</item>
+        <item>பிறந்த குழந்தை</item>
+        <item>3 மாதங்கள்</item>
+        <item>6 மாதங்கள்</item>
+        <item>9 மாதங்கள்</item>
+        <item>1 வருடம்</item>
+        <item>2 வருடங்கள்</item>
+        <item>3 வருடங்கள்</item>
+        <item>4 வருடங்கள்</item>
+        <item>5 வருடங்கள்</item>
+        <item>6 வருடங்கள்</item>
+        <item>7 வருடங்கள்</item>
+        <item>8 வருடங்கள்</item>
+        <item>9 வருடங்கள்</item>
+        <item>10 வருடங்கள்</item>
+        <item>11 வருடங்கள்</item>
+        <item>12 வருடங்கள்</item>
+        <item>13 வருடங்கள்</item>
+        <item>14 வருடங்கள்</item>
+        <item>15 வருடங்கள்</item>
+        <item>16 வருடங்கள்</item>
+        <item>17 வருடங்கள்</item>
+        <item>18 வருடங்கள்</item>
+    </string-array>
+
+
+    <string-array name="unit_gen_height">
+        <item>50.5 cm</item>
+        <item>61.1 cm</item>
+        <item>67.8 cm</item>
+        <item>72.3 cm</item>
+        <item>76.1 cm</item>
+        <item>85.6 cm</item>
+        <item>94.9 cm</item>
+        <item>102.9 cm</item>
+        <item>109.9 cm</item>
+        <item>116.1 cm</item>
+        <item>121.7 cm</item>
+        <item>127.0 cm</item>
+        <item>132.2 cm</item>
+        <item>137.5 cm</item>
+        <item>140.0 cm</item>
+        <item>147.0 cm</item>
+        <item>153.0 cm</item>
+        <item>160.0 cm</item>
+        <item>166.0 cm</item>
+        <item>171.0 cm</item>
+        <item>175.0 cm</item>
+        <item>177.0 cm</item>
+    </string-array>
+    <string-array name="unit_lady_height">
+        <item>49.69 cm</item>
+        <item>60.2 cm</item>
+        <item>66.6 cm</item>
+        <item>71.1 cm</item>
+        <item>75.0 cm</item>
+        <item>84.5 cm</item>
+        <item>93.9 cm</item>
+        <item>101.6 cm</item>
+        <item>108.4 cm</item>
+        <item>114.6 cm</item>
+        <item>120.6 cm</item>
+        <item>126.4 cm</item>
+        <item>132.2 cm</item>
+        <item>138.3 cm</item>
+        <item>142.0 cm</item>
+        <item>148.0 cm</item>
+        <item>150.0 cm</item>
+        <item>155.0 cm</item>
+        <item>161.0 cm</item>
+        <item>162.0 cm</item>
+        <item>163.0 cm</item>
+        <item>164.0 cm</item>
+    </string-array>
+
+    <string-array name="unit_gen_weight">
+        <item>3.3 kg</item>
+        <item>6.0 kg</item>
+        <item>7.8 kg</item>
+        <item>9.2 kg</item>
+        <item>10.2 kg</item>
+        <item>12.3 kg</item>
+        <item>14.6 kg</item>
+        <item>16.7 kg</item>
+        <item>18.7 kg</item>
+        <item>20.7 kg</item>
+        <item>22.9 kg</item>
+        <item>25.3 kg</item>
+        <item>28.1 kg</item>
+        <item>31.4 kg</item>
+        <item>32.2 kg</item>
+        <item>37.0 kg</item>
+        <item>40.9 kg</item>
+        <item>47.0 kg</item>
+        <item>52.6 kg</item>
+        <item>58.0 kg</item>
+        <item>62.7 kg</item>
+        <item>65.0 kg</item>
+    </string-array>
+    <string-array name="unit_lady_weight">
+        <item>3.2 kg</item>
+        <item>5.4 kg</item>
+        <item>7.2 kg</item>
+        <item>8.6 kg</item>
+        <item>9.5 kg</item>
+        <item>11.8 kg</item>
+        <item>14.1 kg</item>
+        <item>16.0 kg</item>
+        <item>17.7 kg</item>
+        <item>19.5 kg</item>
+        <item>21.8 kg</item>
+        <item>24.8 kg</item>
+        <item>28.5 kg</item>
+        <item>32.5 kg</item>
+        <item>33.7 kg</item>
+        <item>38.7 kg</item>
+        <item>44.0 kg</item>
+        <item>48.0 kg</item>
+        <item>51.5 kg</item>
+        <item>53.0 kg</item>
+        <item>54.0 kg</item>
+        <item>54.4 kg</item>
+    </string-array>
+
+</resources>
